@@ -1,0 +1,10 @@
+@import 'top.css';
+@import 'body.css';
+table{
+    clear: both;
+}
+body{
+    width: 19%;
+    height:50%;
+   
+}

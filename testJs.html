@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+
+    <head>
+        
+        <link href="main.css" rel="stylesheet" style="text/css" />
+        <title>Sell</title>
+        <meta charset="utf-8" />
+        <meta accesskey="sell-ramDom" content="design by Hoàng Hải" />
+    </head>
+    
+    <body>
+    
+        <div id="full">
+        
+            <div id="top">
+                <p id="quantity_total">2</p>
+                <div id="name_commodity">
+                    <p class="dplay"><b>Shop</b></p>
+                    <img class="dplay" alt="giỏ hàng" id="cart" src="7.png" />
+                    <p class="dplay">Cart</p>
+                </div>
+                
+                <div id="icon_commodity">
+                    <p class="dplay">Oder Status</p>
+                    <img class="dplay" alt="giỏ hàng" id="cart" src="6.png" />
+                    <p class="dplay">Item</p>
+                </div>
+              </div>   
+                <table>
+                    <caption><h2>You Cart</h2></caption>
+                    <thead>
+                        <tr>
+                            <th colspan="2">Price</th>
+                            <th>Quantity</th>
+                            <th class="total">Total</th>
+                        </tr>
+                    </thead>
+                    
+                    <tfoot>
+                        <tr>
+                            <th colspan="5" id="totalfull">Total</th>
+                        </tr>
+                    </tfoot>
+                    
+                    <tbody>
+                        <tr>
+                            <td style="width: 100px"><img title="Replacement Tips and Eraser" alt="Replacement Tips and Eraser" src="2.png" /></td>
+                            <td class="tbody2">&#36;7.95</td>
+                            <td> <div>
+                                <p id="quantity">1</p>
+                                <input type="button" id="tru" value="-" />
+                                <input type="button" id="cong" value="+" />
+                                </div ></td>
+                            <td id="total"></td>
+                        </tr>
+                        <tr>
+                            <td><img title="Pencil" alt="Pencil" src="5.png" /></td>
+                            <td class="tbody2">&#36;59.95</td>
+                            <td> <div>
+                                <p id="quantity1">1</p>
+                                <input type="button" id="tru1" value="-" />
+                                <input type="button" id="cong1" value="+" />
+                                </div></td>
+                            <td id="total1"></td>
+                        </tr>
+                    </tbody>
+                    
+                </table>
+               <input type="button" value="checkout" id="check" />
+        </div>
+        <script src="new.js" ></script>
+    </body>
+</html>

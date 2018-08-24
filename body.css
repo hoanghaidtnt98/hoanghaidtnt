@@ -1,0 +1,23 @@
+caption{
+    text-align: left;
+}
+img{
+    width: 80%
+}
+thead th{
+    text-align: right;
+}
+td{
+    text-align: right;
+}
+#check{
+    float: right;
+    margin-top: 3%;
+   margin-right: 12%;
+}
+th.total+ tfoot th{
+    padding-left: 10%;
+}
+tfoot th{
+    text-align: right;
+}

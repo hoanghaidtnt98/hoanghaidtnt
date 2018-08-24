@@ -1,0 +1,26 @@
+
+img#cart.dplay{
+    margin: 17px 2px 0px 3px;
+}
+p{
+    display: inline;
+}
+div #name_commodity{
+    float: left;
+}
+div{
+    display: inline;
+}
+#icon_commodity{
+    float: right;
+}
+#cart{
+    width: 9%;
+}
+#quantity_total{
+    position: absolute;
+    right:85%;
+    font-size: 80%;
+    margin-top: 23px;
+    color: white;
+}
